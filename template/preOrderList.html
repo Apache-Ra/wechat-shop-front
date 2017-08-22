@@ -1,0 +1,74 @@
+<div data-role="page" id="preOrderList" data-dom-cache="false">
+	<!-- <div class='mine'>
+  		18718252666，您好
+  </div> -->
+	<div class="list-view wrapper" name="wrapper">
+		<div class="scroller">
+			<div class="pullDown" name="m_list_refresh">
+				<span></span>
+			</div>
+
+			<ul name="list-container">
+
+			</ul>
+			
+
+			<div class="pullUp" name="m_list_loadmore">
+				<span></span>
+			</div>
+		</div>
+	</div>
+  
+  <div class="empty"></div>
+
+	<div class="ui-tab hide">
+		<ul class="m_tab_nav ui-tab-nav" style="top: 117px;">
+			<li name='allProduct'>我的订单</li>
+			<li name='appointment'>我的优惠券</li>
+		</ul>
+	</div>
+
+	<div class="m-template-container">
+		<li name="order-item-template-signle" class='order-item-template clearfix'>
+<!-- 			<div class='itemHeader'>
+				<span class='terminalStoreIcon'></span>
+        <span name='terminalStoreName' class='termianlStoreName'></span>
+				<span name='orderTime' class='orderTime'></span>
+        <span class='moveToNext'></span>
+			</div> -->
+			<div class="orderNumber-orderType">订单号：<span name="appointmentCode"></span><span name="statusName" class='statusName'></span></div>
+      
+			<div name='preOrderItems' class='preOrderItems'>
+				<div class="list-item">
+					<div class="list-item-img">
+						<img src="" />
+					</div>
+					<div class="list-item-txt">
+						<h3 class="list-item-txt-title">
+							<span name="productName"></span>
+						</h3>
+						<div name="productSpec">
+						</div>
+            
+						<div class="list-item-txt-price clearfix">
+							<em class="price" name="salePrice"></em>
+              <span class='quantity' name="quantity"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</li>
+    <li name="order-item-template-multi" class='order-item-template-multi clearfix'>
+<!--       <div class='itemHeader'>
+        <span class='terminalStoreIcon'></span>
+        <span name='terminalStoreName' class='termianlStoreName'></span>
+        <span name='orderTime' class='orderTime'></span>
+        <span class='moveToNext'></span>
+      </div> -->
+      <div>订单号：<span name="appointmentCode"></span><span name="statusName" class='statusName'></span></div>
+      
+      <div name='preOrderItems' class='preOrderItems'>
+      </div>
+    </li>
+	</div>
+</div>

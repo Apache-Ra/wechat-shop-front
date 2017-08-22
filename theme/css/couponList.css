@@ -1,0 +1,150 @@
+#couponList {
+	overflow: hidden;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.coupon-list .wrapper {
+	position: absolute;
+	top: 48px;
+	bottom: 49px;
+	width: 100%;
+}
+
+.coupon-list .ui-tab {
+	top: 39px;
+	height: 145px;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+}
+
+.coupon-list .distance {
+	font-size: 14px;
+	float: right;
+}
+
+.coupon-list .pullDown, .coupon-list .pullUp {
+	display: none;
+}
+
+.coupon-list .pullDown.flip, .coupon-list .pullUp.flip {
+	display: block;
+	height: 34px;
+	line-height: 34px;
+	padding-left: 15px;
+  text-align: center;
+}
+
+.coupon-list .pullUp.flip {
+	margin-bottom: -34px;
+}
+
+.coupon-list .pullDown.flip {
+	margin-top: -34px;
+}
+
+.coupon-list .scroller {
+	min-height: 105%;
+}
+
+.coupon-list .ui-tab img {
+	width: 100%;
+	height: 145px;
+}
+
+.coupon-list .list-item {
+	padding: 5px;
+}
+
+.coupon-list .quan {
+	background: url(images/kdx/coupon_valid.png) no-repeat 0 0;
+	background-size: 100% 126px;
+	height: 120px;
+	padding-left: 4%;
+}
+
+.coupon-list .quan.invalid {
+  background: url(images/kdx/coupon_invalid.png) no-repeat 0 0;
+  background-size: 100% 126px;
+  height: 120px;
+  padding-left: 4%;
+}
+
+.coupon-list .quan .credits {
+  display: block;
+  float:left;
+  width: 80%;
+  height: 100px;
+}
+
+.coupon-list .quan .shopping {
+  display: block;
+  float: right;
+  font-size: 18px;
+  width: 17%;
+  text-align: center;
+  padding-top: 32px;
+  padding-right: 34px;
+  color: black;
+  box-sizing: border-box;
+}
+
+.coupon-list .quan .shopping p {
+	width: 20px;
+  margin: auto;
+  line-height: 28px;
+}
+
+.coupon-list .quan .desc {
+  height: 70px;
+  width: 100%;
+  line-height: 70px;
+  vertical-align: bottom;
+}
+
+.coupon-list .quan .desc .desc1 {
+	display: inline-block;
+  font-size: 40px;
+  color: #FFF;
+  height: 42px;
+  line-height: 42px;
+  vertical-align: bottom;
+}
+
+.coupon-list .quan .desc .desc2 {
+  display: inline-block;
+  vertical-align: -18px;
+  font-size: 14px;
+  margin-left: 10px;
+  background-color: #FFF;
+  padding: 2px 3px;
+  line-height: 16px;
+  color: #000;
+}
+
+.coupon-list .quan.invalid .desc .desc2 {
+	color: #8f8f8f;
+}
+
+.coupon-list .quan .validity {
+  height: 20px;
+  width: 100%;
+  line-height: 20px;
+  vertical-align: bottom;
+  color: #FFF;
+  margin-top: 25px;
+}
+
+.coupon-list .empty {
+  display: none;
+}
+
+.coupon-list.empty .empty {
+  display: block;
+  width: 100%;
+  height: 70%;
+  z-index: 999;
+  background: url(images/empty_coupon_3x.png) no-repeat center;
+  background-size: 90px;
+}

@@ -1,0 +1,38 @@
+<div data-role="page" id="evaluateList" data-dom-cache="false">
+  <div class="list-view wrapper" name="wrapper">
+    <div class="scroller">
+      <div class="pullDown" name="m_list_refresh">
+        <span></span>
+      </div>
+      
+      <div class="evaluate-count">
+        <span class="totalCount">评价(<i name="totalCount"></i>)</span>
+      </div>
+      
+      <ul data-role="listview" class="bar_list ui-list ui-list-text ui-border-tb" name="review-item-container">
+      </ul>
+      
+      <div class="pullUp" name="m_list_loadmore">
+        <span></span>
+      </div>
+    </div>
+    
+    <div class="empty"></div>
+  </div>
+
+  <div class="m-template-container">
+    <li name="review-item-template">
+      <div class="m-user clearfix">
+        <div>
+          <i class="m-user-img"></i>
+          <span class="m-name"></span>
+          <span></span>
+        </div>
+        <div class="text-fr">
+          <em class="m-review-level-icon"></em> <i></i>
+        </div>
+      </div>
+      <div class="m-review"></div>
+    </li>
+  </div>
+</div>

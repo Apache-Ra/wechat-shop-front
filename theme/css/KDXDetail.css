@@ -1,0 +1,9 @@
+#KDXDetail {
+}
+#KDXDetail .kdx-detail-container{
+	padding: 12px;
+}
+#KDXDetail .kdx-detail-container img{
+  width: 100%;
+}
+

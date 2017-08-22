@@ -1,0 +1,99 @@
+<div data-role="page" id="storeDetail" data-dom-cache="false">
+    <div class="storeDetail">
+        <div class="m_slider m-slider">
+            <ul class="m-slider-content">
+            </ul>
+            <div class="m-slider-indicators">
+            </div>
+        </div>
+        
+        <div class="ui-list ui-list-text ui-border-tb">
+            <li class="ui-border-t">
+                <h3 class="detail-title">
+                    <i class="detail-title-icon"></i>
+                    <span name="companyName"></span>
+                    <strong name="distance"></strong>
+                    <div class="detail-level">
+                        <em class="m-store-level-icon"></em>
+                    </div>
+                </h3>
+                <div name='collectBtn' class="ui-border-l hide">
+                    <i class="collect-icon active"></i>
+                    <p>收藏</p>
+                </div>
+            </li>
+            <div class="m-store-status clearfix">
+                <ul>
+                    <li type="服务">质量<em></em>
+                    </li>
+                    <li type="环境">环境<em></em>
+                    </li>
+                    <li type="态度">态度<em></em>
+                    </li>
+                    <li type="态度">施工<em></em>
+                    </li>
+                    <li>服务次数<em></em>
+                    </li>
+                </ul>
+            </div>
+            <li class="ui-border-t clearfix">
+                <div class="m-cont">
+                    <p><span>电话：</span><span name="cellphone"></span></p>
+                    <p><span>地址：</span><span name="address"></span><i></i></p>
+                </div>
+            </li>
+        </div>
+        <div class="m-mt-10"></div>
+        <div class="ui-list ui-border-tb m-list">
+            <div class="m-info">
+                <span class="text">评价(<i name="reviewCount"></i>次评价)</span>
+                <span class="m_evaluate"><a href="javascript:void(0)">立即评价</a></span>
+            </div>
+            <div class="ui-border-t m-detail m-info" name="lastReviewContainer">
+                <p class="m-user">
+                    <i name="lastReviewUser"></i><i class="review-date" name="reviewDate"></i>
+                    <span class="score">
+                      <em class="m-review-level-icon"></em>
+                    </span>
+                </p>
+                <p class="m-comment" name="lastReview">
+                </p>
+            </div>
+            <div name="noReviewContainer" class="empty-review-prompt">暂无评价</div>
+            <div class="ui-border-t">
+                <a href="javascript:;" class="m-link" name="referAllReview">查看全部评价</a>
+            </div>
+        </div>
+        <div class="m-mt-10"></div>
+          <div class="ui-tab m-tab">
+            <ul class="m_tab ui-tab-nav ui-border-b">
+                <li class="current">服务优势</li>
+                <li>实力介绍</li>
+            </ul>
+            <div class="m_tab_content ui-tab-content">
+                <div class="list-view ui-border-b current">
+                  <div name='companyServiceCategories' class="list-item ui-border-b">
+                    </div>
+                    <div class="nodata">暂无内容</div>
+                </div>
+                <div class="list-view ui-border-b">
+                  <div name='description' class="list-item ui-border-b m-desc">
+                    </div>
+                    <div class="nodata">暂无内容</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	  <div data-role="footer" class="ui-footer m-panel-footer m-footer" data-tap-toggle="false" data-position="fixed" data-fullscreen="false">
+	    <div>
+	      <a href="javascript:void(0)" class="m-footer-info">选择该门店</a>
+	    </div>
+	  </div>
+    
+    <div class="m-template-container">
+      <li name="storeDetail_image_template">
+          <img>
+      </li>
+    </div>
+</div>

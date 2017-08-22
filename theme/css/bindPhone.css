@@ -1,0 +1,64 @@
+#bindPhone form {
+	padding: 10px;
+}
+
+#bindPhone form > div {
+	width: 90%;
+	text-align: center;
+	margin: auto;
+	position: relative;
+	padding: 4px 0;
+}
+
+#bindPhone .phone-code > div {
+  position: relative;
+  height: 33px;
+}
+
+#bindPhone .phone-code .ui-input-text {
+	position:absolute;
+	left: 0;
+	right: 87px;
+	height: 30px;
+}
+
+#bindPhone .ui-input-text {
+  border: none;
+  margin: 0px;
+}
+
+#bindPhone .ui-btn {
+  background-color: #c6010b;
+  background-image: initial;
+  color: #fff;
+  font-weight: normal;
+}
+
+#bindPhone .ui-btn.large {
+	width: 100%;
+}
+
+#bindPhone .ui-btn.ui-disabled {
+  background-color: #888;
+}
+
+#bindPhone .ui-input-text input {
+  border: 1px solid #dfdfdf;
+}
+
+#bindPhone .ui-input-text input:focus {
+	border: 1px solid #c6010b;
+}
+
+#bindPhone .phone-code .ui-btn {
+  position: absolute;
+  right: 0px;
+  width: 86px;
+  margin: 0px;
+  height: 32px;
+}
+
+#bindPhone .button-box .ui-btn {
+  margin: 0px;
+  height: 32px;
+}

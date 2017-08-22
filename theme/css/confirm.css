@@ -1,0 +1,54 @@
+@charset "utf-8";
+#common_confirm_alert {
+  border-radius: initial;
+  min-width: 240px;
+  border: 0;
+}
+
+#common_confirm_alert {
+    border-radius: initial;
+    min-width: 240px;
+    border: 0;
+}
+#common_confirm_alert .m-confirm-content {
+    padding: 15px;
+}
+#common_confirm_alert .m-confirm-message {
+    text-align: center;
+    min-height: 60px;
+}
+#common_confirm_alert .m-confirm-message h4 {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 4px;
+}
+#common_confirm_alert .m-confirm-message p {
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+    text-align: justify;
+    text-justify: inter-ideograph;
+}
+#common_confirm_alert .m-confirm-button-group {
+    text-align: center;
+    margin-top: 10px;
+}
+#common_confirm_alert .m-confirm-button-group button {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #fff;
+    box-shadow: none;
+    text-shadow: none;
+    border: 0;
+    border-radius: 2px;
+    cursor: pointer;
+}
+#common_confirm_alert .m-confirm-button-group button:nth-child(1){
+	background: #acacac;
+}
+
+
+
+

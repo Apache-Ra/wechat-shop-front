@@ -1,0 +1,82 @@
+<div data-role="page" id="videoDetail" class="video-detail video-detail-container" data-dom-cache="false" name="video-detail-container">
+	<!--热门直播-->
+	<div class="title_content">
+		<div class="title_Img"><img src="theme/css/img/hot.png"></div>
+		<div class="title_text">热门直播</div>
+	</div>
+			
+	<div class="hot_liveRadio padding_0_10">
+		<div class="video_content" id="videobox" name="playVideo-content">
+		    <div id="video-container" style="width:100%;height:100%;">
+		    </div>
+		    <div class="videoShare_title">吃货的天梯，今天的热点</div>
+		</div>
+	</div>
+	<!--同场热播-->
+	<div class="title_content">
+		<div class="title_Img"><img src="theme/css/img/same.png"></div>
+		<div class="title_text">同场直播 <i class="title_minText">滑动查看更多直播</i></div>
+	</div>
+			
+	<div class="same_liveRadio padding_0_10">
+		<div class="swiper-container banner_video">
+	        <div class="swiper-wrapper" name="video-container">
+	        </div>
+	    </div>
+	</div>
+	<!--好货推荐-->
+	<div class="title_content">
+		<div class="title_Img"><img src="theme/css/img/recommendation.png"></div>
+		<div class="title_text">爆品推荐<i class="title_minText">点击商品马上抢购</i></div>
+	</div>		
+	<div class="goodStuff_recommendation padding_0_10">
+		<div class="commodity">
+			<ul name="product-container">
+			</ul>
+		</div>
+	</div>
+	<!--爆款推荐-->
+	<div class="title_content" style="display:none">
+		<div class="title_Img"><img src="theme/css/img/explosive.png"></div>
+		<div class="title_text">好货推荐  <i class="title_minText"></i></div>
+	</div>	
+	<div class="detonation_recommendation padding_0_10">
+		<div class="detonation">
+			<ul name="detonation-container">
+			</ul>
+		</div>
+	</div> 
+	<!-- 模板 -->
+  	<div class="m-template-container">
+       <div class="swiper-slide" name="video-item-template" videosource="" videtxt="">
+        	<img src="">
+        	<div class="banner_text min-title-text"></div>
+        </div>
+    </div>
+    
+    <div class="m-template-container">
+		<li class="commodity_content" name="product-item-template" test="">
+			<p class="product_Img"><img src=""></p>
+			<p class="product_title min-title-text"></p>
+		</li>
+    </div>
+    
+    <div class="m-template-container">
+		<li class="detonation_content" name="detonation-item-template" test="">
+			<p class="detonation_Img"><img src=""></p>
+			<p class="detonation_title min-title-text"></p>
+		</li>
+    </div>   
+ <script>
+	var videoContentHeight = $(".video_content").height();
+	$("video").height(videoContentHeight);
+	
+	var VideoTitleContent = $('.title_content').height();
+	//$(".hot_liveRadio").height(videoContentHeight+VideoTitleContent+10);
+	//好货推荐适配
+
+	//爆款推荐
+	
+ </script> 
+ 
+</div>

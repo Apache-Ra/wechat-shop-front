@@ -1,0 +1,89 @@
+.address-container {
+}
+
+.address-container label {
+	color: #333;
+}
+
+.address-container .frozen-select{
+  margin-left: 115px;
+  position: relative;
+  margin-right: 6px;
+}
+
+.address-container .frozen-select select{
+  webkit-appearance: none;
+  border: 0;
+  background: 0 0;
+  width: 100%;
+  padding-right: 14px;
+}
+
+.address-container .frozen-select:after {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -4px;
+  width: 0;
+  height: 0;
+  border-top: 6px solid;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  color: #a6a6a6;
+  content: "";
+  pointer-events: none;
+}
+
+.address-container .ui-border-b{
+  font-size: 12px;
+}
+
+.address-container .ui-border-r{
+  font-size: 12px;
+}
+
+.address-container #save-address{
+  background: #c6010b;
+  color: #fff;
+}
+
+.address-container .m-panel-footer {
+  color: #333;
+  background-color: white;
+  border-top: 1px solid #dadada;
+}
+
+.address-container .m-panel-footer .price {
+  font-size: 16px;
+}
+
+.address-container .m-panel-footer .order-count {
+  color: #999;
+  font-size: 12px;
+}
+
+.address-container .m-panel-footer .ui-block-a {
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.address-container .m-panel-footer .ui-block-b,
+.address-container .m-panel-footer .ui-block-c {
+  padding: 0;
+  text-align: center;
+}
+
+.address-container .m-panel-footer .remove-shopping-cart {
+  padding: 9px;
+  display: block;
+  background-color:orange;
+  color: white;
+}
+
+.address-container .m-panel-footer .buy-now {
+  padding: 9px;
+  display: block;
+  background-color:#c6010b;
+  color: white;
+}

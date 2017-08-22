@@ -1,0 +1,90 @@
+#storeMap {
+  overflow: hidden;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#storeMap #r-result {
+	width: 100%;
+	min-height: 100%;
+}
+
+#storeMap .route-panel {
+	display:none;
+	position:fixed;
+	height: 300px;
+	bottom: -300px;
+	left: 0px;
+	right: 0px;
+	z-index:100;
+	background: #fff;
+	width:100%;
+	border-top: 1px solid #ddd;
+	transition:bottom 0.5s;
+	-moz-transition:bottom 0.5s; /* Firefox 4 */
+	-webkit-transition:bottom 0.5s; /* Safari and Chrome */
+	-o-transition:bottom 0.5s; /* Opera */
+}
+
+#storeMap .route-panel a {
+	display:none;
+}
+
+#storeMap .route-panel.open {
+  bottom: 0px;
+}
+
+#storeMap .result-container {
+	height: 100%;
+	width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#storeMap .t-arrow {
+	position:absolute;
+	top:-16px;
+	left: 0px;
+	right: 0px;
+	background: #fff;
+	height: 15px;
+	width: 40px;
+	margin: auto;
+	border: 1px solid #ccc;
+	border-bottom-width: 0px;
+  z-index: 100;
+}
+
+#storeMap .close .t-arrow:after, #storeMap .close .t-arrow:before {
+  border: 6px solid transparent;
+  border-bottom: 6px solid #fff;
+  width: 0;
+  height: 0;
+  left: 13px;
+  position: absolute;
+  top: 0px;
+  content: ' ';
+  z-index: 101;
+}
+ 
+#storeMap .close .t-arrow:before {
+  border-bottom-color: #aaa;
+  top: -2px;
+}
+
+#storeMap .open .t-arrow:after, #storeMap .open .t-arrow:before {
+  border: 6px solid transparent;
+  border-top: 6px solid #fff;
+  width: 0;
+  height: 0;
+  left: 13px;
+  position: absolute;
+  top: 3px;
+  content: ' ';
+  z-index: 101;
+}
+ 
+#storeMap .open .t-arrow:before {
+  border-top-color: #aaa;
+  top: 5px;
+}

@@ -1,0 +1,18 @@
+#more .m-more ul {
+    margin-bottom: 10px;
+}
+#more .m-more ul:first-child {
+    margin-top: -1px;
+}
+#more .m-more li p, .m-more li h4 {
+    color: #495772;
+    font-size: 14px;
+}
+#more .m-more li .ui-list-action {
+    font-size: 12px;
+    color: #999;
+}
+#more .m-more li {
+  margin-left: 0;
+  padding-left: 15px;
+}

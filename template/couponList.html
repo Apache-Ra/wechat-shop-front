@@ -1,0 +1,39 @@
+<div data-role="page" id="couponList" class="coupon-list"
+	data-dom-cache="false">
+	<div class="list-view wrapper" name="wrapper">
+		<div class="scroller">
+			<div class="pullDown" name="m_list_refresh">
+				<span></span>
+			</div>
+
+			<ul name="coupon-list-container">
+			</ul>
+
+			<div class="pullUp" name="m_list_loadmore">
+				<span></span>
+			</div>
+		</div>
+	</div>
+
+  <div class="empty"></div>
+
+	<!-- 模板 -->
+	<div class="m-template-container">
+		<li name="coupon-item-template" class="list-item">
+		  <div>
+				<div class='quan clearfix'>
+					<div class='credits'>
+					  <div class="desc clearfix">
+							<div class="desc1" name="desc1"></div>
+							<div class="desc2" name="desc2"></div>
+						</div>
+	          <div class='validity'>有效期到<span name="endTime"></span></div>
+					</div>
+					<div class='shopping'>
+	          <p name="operation"></p>
+					</div>
+				</div>
+			</div>
+		</li>
+	</div>
+</div>

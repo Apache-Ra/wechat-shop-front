@@ -1,0 +1,87 @@
+#mine .m-order-status ul {
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+#mine .m-order-status ul li {
+    width: 33.3%;
+    height: 35px;
+    line-height: 35px;
+    position: relative;
+    background-size: 100% 1px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+}
+#mine .m-order-status ul li:before {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 35px;
+    background: url(images/user_line.png) no-repeat;
+    float: right;
+}
+#mine .m-order-status ul li:last-child:before {
+    background: none;
+}
+#mine .m-shortcut-navs .m-shortcut-nav {
+    padding: 10px;
+    width: 100%;
+}
+#mine .m-shortcut-navs .m-shortcut-nav:nth-child(n+1) {
+    margin-top: -20px;
+}
+#mine .m-shortcut-navs .m-shortcut-nav:first-child {
+    margin-top: 0;
+}
+#mine .m-shortcut-navs .m-shortcut-nav li {
+    float: left;
+    padding: 10px;
+    width: 25%;
+}
+#mine .m-shortcut-navs .m-shortcut-nav li a {
+    display: block;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    padding: 8px 5px;
+    font-size: 12px;
+}
+#mine .m-shortcut-navs .m-shortcut-nav li a .order-icon {
+    display: block;
+    width: 45px;
+    height: 45px;
+    background: url(images/kdx/my_order.png) no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+#mine .m-shortcut-navs .m-shortcut-nav li a .coupon-icon {
+    display: block;
+    width: 45px;
+    height: 45px;
+    background: url(images/kdx/my_coupon.png) no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+#mine .m-shortcut-navs .m-shortcut-nav li a .u-store {
+    background-position: 0 -90px;
+}
+#mine .m-shortcut-navs .m-shortcut-nav li a .u-manage {
+    background-position: 0 -135px;
+}
+#mine .m-shortcut-navs .m-shortcut-nav li a .u-query {
+    background-position: 0 -180px;
+}
+#mine .m-shortcut-navs .m-shortcut-nav li a .u-tag {
+    font-size: 12px;
+    color: #4d4d4d;
+}
+#mine .m-shortcut-navs .m-shortcut-nav li a span {
+    color: #999;
+}

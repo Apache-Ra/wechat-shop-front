@@ -1,0 +1,499 @@
+.order {
+	overflow: hidden;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.order .map-icon {
+	width: 30px;
+	height: 35px;
+	display: inline-block;
+	background: url(../css/images/icon-btn.png) 0 -66px no-repeat;
+	margin: 0 10px 0 0;
+}
+
+.order .address-name {
+	display: inline-block;
+	margin-right: 50px;
+}
+
+.order .address-phone {
+	display: inline-block;
+}
+
+.order .address-box {
+	display: inline-block;
+	font-size: 12px;
+}
+
+.order .order-panel-border {
+	background: #dedfe0;
+	height: 10px;
+}
+
+.order .ui-form-item {
+	height: auto !important;
+}
+
+.order .ui-tab {
+	top: 39px;
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+}
+
+.order .ui-tab-nav {
+	background: #f8f8f8;
+	border-bottom: 1px solid #dadada;
+	position: initial;
+}
+
+.order .ui-tab-nav li {
+	font-size: 14px;
+	position: relative;
+}
+
+.order .ui-tab-nav li.current {
+	border: 0;
+	color: #492678;
+}
+
+.order .ui-tab-nav li .ui-tab-nav-icon {
+	display: inline-block;
+	position: absolute;
+	top: 20px;
+	width: 8px;
+	height: 5px;
+	background: url(images/toggle.png) no-repeat 0 -5px;
+	background-size: 100%;
+	margin-left: 5px;
+}
+
+.order .ui-tab-nav li.current .ui-tab-nav-icon {
+	background: url(images/toggle.png) no-repeat 0 0;
+	background-size: 100%;
+}
+
+.order .ui-tab-content {
+	position: absolute;
+	display: -webkit-box;
+	width: 100%;
+	margin-top: 0;
+	z-index: 10;
+}
+
+.order .order-invoice-box {
+	margin: 10px;
+	font-size: 12px;
+}
+
+.order .invoice-label {
+	display: inline-block;
+}
+
+.order .invoice-company, .order .invoice-personal {
+	display: inline-block;
+	width: 60px;
+	height: 30px;
+	text-align: center;
+	border: 1px solid #dedfe0;
+	border-radius: 5px 5px;
+	line-height: 30px;
+}
+
+.order .invoice-company {
+	margin: 0 33px 0 50px;
+}
+
+.order .invoice-active {
+	border-color: #c6010b !important;
+	color: #c6010b !important;
+}
+
+.order .invoice-input-box {
+	margin: 10px 0;
+	display: none;
+}
+
+.order .invoice-input {
+	height: 40px;
+	width: 100%;
+	background: #dedfe0;
+	padding-left: 5px;
+}
+
+.order .ui-tab-content>li {
+	-webkit-box-flex: 1;
+	width: 100%;
+}
+
+.order .ui-tab-content .ui-border-tb {
+	border-top: 0;
+}
+
+.order .ui-tab-content .ui-list-text .ui-list-item-link {
+	margin-left: 0;
+	padding-left: 15px;
+}
+
+.order .ui-tab-content .ui-list-info h4, .order .ui-tab-content .ui-border-t p {
+	font-size: 12px;
+}
+
+.order .ui-tab-content .ui-list-info {
+	height: 44px;
+	line-height: 44px;
+}
+
+.order .ui-tab-content>li .cate {
+	width: 100%;
+	display: -webkit-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	background: #f3f6f8;
+}
+
+.order .ui-tab-content>li .cate .cate-hd, .order .ui-tab-content>li .cate .cate-bd
+	{
+	width: 50%;
+	box-flex: 1;
+	-webkit-box-flex: 1;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.order .cate-hd li {
+	line-height: 20px;
+	padding: 12px 15px;
+	font-size: 12px;
+	background: #f3f6f8;
+	border-bottom: 1px solid #e8e8e8;
+	color: #495772;
+}
+
+.order .cate-hd li.current {
+	background: #fff;
+}
+
+.order .cate-bd li {
+	line-height: 20px;
+	padding: 12px 15px;
+	border-bottom: 1px solid #fff;
+	font-size: 12px;
+	color: #495772;
+}
+
+.order .list-view {
+	background-color: white;
+}
+
+.order .list-view li {
+	min-height: 80px;
+	padding: 12px 6px;
+	border-top: 1px solid #dadada;
+	margin-top: -1px;
+	position: relative;
+}
+
+.order .list-item {
+	display: -webkit-box;
+	height: 102px;
+	overflow: hidden;
+}
+
+.order .list-item .list-item-checkbox {
+	margin: 50px 10px;
+}
+
+.order .list-item .list-item-checkbox-icon {
+	width: 14px;
+	height: 14px;
+	border: 1px solid #ccc;
+	border-radius: 14px 14px;
+}
+
+.order .list-item .list-item-checkbox-icon.active {
+	border-color: #c6010b;
+	background-color: #c6010b
+}
+
+.order .list-item .list-item-img {
+  display: inline-block;
+  text-align: center;
+  overflow: hidden;
+  height: 100px;
+  width: 133px;
+  line-height: 100px;
+  margin-right: 10px;
+}
+
+.order .list-item .list-item-img img {
+  width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+.order .list-item .list-item-txt {
+	margin: 4px 0;
+	-webkit-box-flex: 1;
+}
+
+.order .list-item .list-item-txt-title {
+	line-height: 16px;
+	position: relative;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	word-break: break-all;
+	color: #333;
+	font-size: 12px;
+	height: 32px;
+}
+
+.order .list-item .list-item-txt-title .list-item-txt-title-icon {
+	display: inline-block;
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+	background: url(images/zhuan.png) no-repeat top center;
+	background-size: 100%;
+}
+
+.order .list-item .list-item-txt-price {
+	height: 32px;
+	position: absolute;
+	right: 5px;
+	top: 43px;
+}
+
+.order .list-item .list-item-txt-level {
+	color: #999;
+	font-size: 10px;
+	position: relative;
+	height: 22px;
+	margin: 6px 0;
+}
+
+.order .list-item .list-item-txt-level span {
+	position: relative;
+	margin-right: 4px;
+}
+
+.order .list-item .list-item-txt-lable {
+	color: #ccc;
+	font-weight: normal;
+}
+
+.order .list-item .list-item-txt-stats {
+	color: #999;
+	font-size: 10px;
+}
+
+.order .list-item .list-item-txt-stats em {
+	color: #f6ce72;
+}
+
+.order .list-item-count .price {
+  font-size: 16px;
+  color: #c6010b;
+  float: left;
+}
+
+.order .list-item-count .product-count {
+	float: right;
+	color: #333;
+}
+
+.order .list-item .list-item-count .list-item-count-minus {
+	display: inline-block;
+	border: 1px solid #ccc;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px 20px;
+	text-align: center;
+	color: #ccc;
+}
+
+.order .list-item .list-item-count .list-item-count-add {
+	display: inline-block;
+	border: 1px solid #ccc;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px 20px;
+	text-align: center;
+	color: #ccc;
+}
+
+.order .list-item .list-item-count .list-item-count-add {
+	display: inline-block;
+	border: 1px solid #ccc;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px 20px;
+	text-align: center;
+	color: #ccc;
+}
+
+.order .list-item .list-item-count .list-item-count-input {
+	height: 20px;
+	width: 40px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+.order .m-serie-info {
+	margin-top: 45px;
+	line-height: 30px;
+	overflow: hidden;
+	font-size: 12px;
+	border-bottom: solid 1px #d8d8d8;
+	padding-left: 10px;
+	color: #333;
+	background: #FFF;
+}
+
+.order .m-serie-info img {
+	height: 16px;
+	margin: -4px;
+}
+
+.order .ui-list-item-link {
+	margin: 0;
+}
+
+.order .ui-list-item-link .ui-list-info {
+	padding-left: 15px;
+}
+
+.order .ui-list-item-link .ui-list-info .m-car-logo {
+	height: 20px;
+	float: left;
+	margin: 0;
+}
+
+.order .pullDown, .order .pullUp {
+	display: none;
+}
+
+.order .pullDown.flip, .order .pullUp.flip {
+	display: block;
+	height: 34px;
+	line-height: 34px;
+	padding-left: 15px;
+  text-align: center;
+}
+
+.order .pullUp.flip {
+	margin-bottom: -34px;
+}
+
+.order .pullDown.flip {
+	margin-top: -34px;
+}
+
+.order .scroller {
+	min-height: 105%;
+}
+
+.order .evaluation {
+	display: inline-block;
+	padding-right: 3px;
+}
+
+.order .reservation {
+	display: inline-block;
+}
+
+.order .icon-installation {
+	width: 18px;
+	height: 18px;
+	background-color: #578387;
+	text-align: center;
+	color: white;
+	display: inline-block;
+	margin-right: 3px;
+}
+
+.order .installationMessage {
+	display: inline-block;
+}
+
+.order .m-panel-footer {
+	color: #333;
+	background-color: white;
+	border-top: 1px solid #dadada;
+}
+
+.order .m-panel-footer .price {
+	font-size: 16px;
+}
+
+.order .m-panel-footer .order-count {
+	color: #999;
+	font-size: 12px;
+}
+
+.order .m-panel-footer .ui-block-a {
+	text-align: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.order .m-panel-footer .ui-block-b, .order .m-panel-footer .ui-block-c {
+	padding: 0;
+	text-align: center;
+}
+
+.order .m-panel-footer .remove-shopping-cart {
+	padding: 9px;
+	display: block;
+	background-color: orange;
+	color: white;
+}
+
+.order .m-panel-footer .buy-now {
+	padding: 9px;
+	display: block;
+	background-color: #c6010b;
+	color: white;
+}
+
+.order .m-panel-footer .order-price {
+	color: #c6010b;
+}
+
+.order .terminal-store {
+	line-height: 16px;
+	color: #3c3c3c;
+	font-size: 12px;
+	padding: 0px 0px 5px 0px;
+	margin: 3px 0px 8px 0px;
+	font-weight: lighter;
+	width: 100%;
+	height: 14px;
+	color: #3c3c3c;
+}
+
+.order .terminal-store .terminal-store-icon {
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url(images/icon-btn.png) 0 0 no-repeat;
+	background-size: 100%;
+	background-position: 0px 0px;
+	margin: -1px 5px 0px 0px;
+	float: left;
+	color: #3c3c3c;
+}
+
+.order .order-desc-border {
+	padding: 3px 6px;
+}
+
+.order textarea {
+  width: 99%;
+  display: block;
+  height: 50px;
+  border: 1px solid #CDCDCD;
+}

@@ -1,0 +1,69 @@
+#evaluate .m-evaluate {
+  padding: 6px 0 10px 0;
+}
+
+#evaluate .m-evaluate > div {
+    padding: 10px 15px;
+    height: 24px;
+}
+
+#evaluate .m-evaluate > div:first-child {
+  border-bottom: 1px solid #E4E4E4;
+}
+
+#evaluate .m-evaluate > div span {
+    float: left;
+    color: #666;
+    font-size: 12px;
+    line-height: 24px;
+    height: 24px;
+    margin-right: 20px;
+}
+#evaluate .m-evaluate > div i {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background: url(images/icon-rank.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+#evaluate .m-evaluate > div i.cur {
+    background: url(images/icon-rank.png) 0 -24px no-repeat;
+    background-size: 100%;
+}
+#evaluate .m-evaluate > div em {
+    font-size: 12px;
+    color: #333;
+    line-height: 24px;
+    float: right;
+}
+#evaluate .ui-form-item {
+    height: auto;
+    padding: 0 15px;
+}
+#evaluate .ui-form-item textarea {
+    font-size: 12px;
+    color: #999;
+    padding: 0;
+    resize: none;
+    padding-top: 15px;
+}
+
+#evaluate .m-evaluate-footer {
+  color: #333;
+}
+
+#evaluate .m-evaluate-footer .price {
+  font-size: 16px;
+}
+
+#evaluate .m-evaluate-footer a {
+  padding: 9px;
+  display: block;
+  background-color: #c6010b;
+  color: white;
+  text-align: center;
+}
+
+#evaluate .m-evaluate-footer > div {
+  padding: 0;
+}

@@ -1,0 +1,83 @@
+#home {
+}
+
+#home .banner {
+	max-height: 350px;
+	overflow: hidden;
+}
+
+#home .banner img {
+	width: 100%;
+	display: block;
+}
+
+#home .shoticon>div {
+	text-align: center;
+	margin-top: 6px;
+}
+
+#home .shoticon>div:last-child {
+	/* margin-top: -1px; */
+}
+
+#home .shoticon>div>div {
+	display: inline-block;
+	margin: 0;
+	width: 32%;
+	border-radius: 5px 5px;
+}
+
+#home .shoticon>div>div::after {
+	display: block;
+	padding-top: 100%;
+	content: '';
+}
+
+#home .m-slider::after {
+  display: block;
+  padding-top: 54.44%;
+  content: '';
+}
+
+/*进入直播*/
+#home .shoticon .enter_video {
+	background: url(img/home_film.png) no-repeat center;
+  background-size: 64%;
+  background-color: #F9C557; 
+}
+/*关于我们*/
+#home .shoticon .about_us {
+	background: url(img/home_beauty.png) no-repeat center;
+  background-size: 64%;
+  background-color: #F18075;
+}
+/*使用流程*/
+#home .shoticon .use_process {
+	background: url(img/use_process.png) no-repeat center;
+  background-size: 64%;
+  background-color: #71CA80;
+}
+#home .shoticon .home_store {
+	background: url(images/home_store.png) no-repeat center;
+  background-size: 64%;
+  background-color: #DCB0D7;
+}
+
+#home .shoticon .home_coupon {
+	background: url(images/home_coupon.png) no-repeat center;
+	background-size: 64%;
+	background-color: #F9C557;
+}
+
+#home .shoticon .home_article {
+	background: url(images/home_article.png) no-repeat center;
+  background-size: 64%;
+  background-color: #71CA80;
+}
+
+#home .shoticon .home_aboutme {
+	background: url(images/home_aboutme.png) no-repeat center;
+  background-size: 64%;
+  background-color: #C5B5A9;
+}
+/*donglei-update-20161106*/

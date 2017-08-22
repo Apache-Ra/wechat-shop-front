@@ -1,0 +1,54 @@
+/* #videoDetail img{width: 100%;vertical-align: middle;} */
+#videoDetail{font-family:Arial,"Hiragino Sans GB W3","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif}
+#videoDetail ul li{list-style: none;float: left;}
+#videoDetail .padding_0_10{padding:10px;}
+#videoDetail {
+/* 	overflow: hidden; */
+	height: 100%;
+	box-sizing: border-box;
+}
+/*标题ICO*/
+.title_content{height:40px;line-height:35px;border-top:1px solid #DEDFE0;border-bottom:1px solid #DEDFE0;}
+.title_content .title_Img{width:30px;height: 30px; float: left;margin-left: 8px;}
+.title_content .title_Img img{width: 100%;vertical-align: middle;}
+.title_content .title_text{display: inline-block;height:40px;line-height: 40px;margin-left:5px;font-size: 14px;font-weight: bold;}
+.title_content .title_text .title_minText{font-size: 12px;font-style: normal;font-weight: normal;margin-left:10px;}
+
+
+.title_content:first-child{border-top:none;}
+/*nth-child()*/
+/*小标题文字*/
+.min-title-text{overflow: hidden;text-overflow: ellipsis;text-align:left;font-size: 12px;line-height: 20px;height: 40px}
+/*热门直播*/
+#videoDetail .hot_liveRadio{background: #FFFFFD;}
+#videoDetail .video_content{height: 214px;background: #000;position: relative;}
+#videoDetail .video_content video{}
+#videoDetail .videoShare_title{background:#3F3F41;position: absolute;width: 100%;color: #FFF;height:30px;line-height: 30px;text-indent: 10px;bottom: 0;display:none;}
+.the_current_color{border:1px solid red !important;}
+/*同场直播*/
+#videoDetail .same_liveRadio{background: #FFFFFD;/*border-bottom:1px solid #DEDFE0; padding-bottom: 5px; */}
+
+#videoDetail .same_liveRadio .banner_video{overflow:hidden;margin:0 auto;}
+#videoDetail .same_liveRadio .banner_video .swiper-slide{/*height: 90px;*/width:170px;border:1px solid #DEDFE0;box-sizing:border-box;}
+#videoDetail .same_liveRadio .banner_video .swiper-slide img{max-width:100%;max-height:100%};
+#videoDetail .same_liveRadio .banner_video .swiper-slide .banner_text{overflow: hidden;text-align:center;text-overflow:ellipsis;white-space:nowrap;font-size: 13px;text-indent: 2px;height:25px;line-height:25px;}
+#videoDetail .banner_text{/* white-space: nowrap; */}
+/*好货推荐*/
+#videoDetail .goodStuff_recommendation{/* height: 160px; */background: #FFFFFD;/* border-bottom:1px solid #DEDFE0; */overflow: hidden;}
+#videoDetail .goodStuff_recommendation .commodity ul{/* height:100px; */}
+#videoDetail .goodStuff_recommendation .commodity .commodity_content{/* height:100px; */overflow:hidden;}
+#videoDetail .goodStuff_recommendation .commodity .commodity_content .product_Img{/* height:80px; */}
+#videoDetail .goodStuff_recommendation .commodity .commodity_content .product_title{}
+#videoDetail .goodStuff_recommendation .commodity ul li{width:46%; border:1px solid #DEDFE0;text-align:center;padding:5px;}
+#videoDetail .goodStuff_recommendation .commodity ul li:nth-of-type(2){float: right;}
+
+#videoDetail .commodity .commodity_content img{max-height:100%;max-width:100%;}
+/*爆款推荐*/
+#videoDetail .detonation_recommendation{background: #FFFFFD;border-bottom:1px solid #DEDFE0;overflow: hidden;padding-bottom: 5px;display:none;}
+#videoDetail .detonation_recommendation .detonation ul{/* height:100px; */}
+#videoDetail .detonation_recommendation .detonation ul li{width:46%;/* height:100px;  */border:1px solid #DEDFE0;padding:5px;}
+#videoDetail .detonation_recommendation .detonation ul li .detonation_Img{/* height:80px; */text-align:center;}
+#videoDetail .detonation_recommendation .detonation_title{}
+#videoDetail .detonation_recommendation .detonation ul li img{}
+#videoDetail .detonation_recommendation .detonation ul li:nth-of-type(2){float: right;}
+#videoDetail .detonation_recommendation .detonation img{max-height:100%;max-width:100%;}

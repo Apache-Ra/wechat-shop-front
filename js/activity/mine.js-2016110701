@@ -1,0 +1,54 @@
+define(['activity/activity', 'core/navigation', 'util/storageUtil', 'util/util', 'util/format'],
+    function(Activity, navigation, storageUtil, util, format) {
+  
+  var Mine = function(){
+    Activity.call(this);
+  };
+  
+  Activity.inheritedBy(Mine);
+  
+  /**
+   * 页面第一次创建执行
+   * 这里绑定唯一事件，加载唯一数据
+   */
+  Mine.prototype.onCreate = function() {
+    this.container_.find(".m-shortcut-navs a").bind("tap", function() {
+      var $this = $(this);
+      var activityId = $this.attr("activityId");
+      navigation.moveTo(activityId);
+    });
+    
+    this.container_.find(".m-order-status li").bind("tap", function() {
+      var appointmentStatus = $(this).attr("appointmentStatus");
+      navigation.moveTo("preOrderList", {appointmentStatus: appointmentStatus});
+    });
+  };
+  
+  /**
+   * 加载动态数据，刷新标题等
+   */
+  Mine.prototype.show = function() {
+//    console.debug("Mine.beforeshow");
+//  	var me = this;
+//    this.toolbar.addRightButton([{
+//      cssClass: 'm-icon-more',
+//      activityId: 'more'
+//    }]);
+  };
+  
+  /**
+   * 可以在这里阻止页面跳转
+   */
+  Mine.prototype.beforechange = function(event, ui) {
+    console.debug("Mine.beforechange");
+  };
+  
+  /**
+   * 执行清理工作
+   */
+  Mine.prototype.hide = function(event, ui) {
+    console.debug("Mine.hide");
+  };
+  
+  return new Mine();
+});

@@ -1,0 +1,22 @@
+<div data-role="page" id="mine" data-dom-cache="false">
+    <div class="m-user-view">
+        <div class="m-shortcut-navs">
+            <ul class="m-shortcut-nav clearfix">
+                <li>
+                    <a href="" activityId="preOrderList">
+                        <i class="order-icon u-commodity"></i>
+                        <p class="u-tag">我的订单</p>
+                        <!-- <span><i name="favoriteProductCount"></i>件商品</span> -->
+                    </a>
+                </li>
+                 <!--<li>
+                     a href="" activityId="couponList">
+                        <i class="coupon-icon u-service"></i>
+                        <p class="u-tag">我的优惠券</p>
+                        <!-- <span><i name="favoriteServiceCount"></i>个服务</span> -->
+                    <!-- </a>-->
+                 <!--</li>-->
+            </ul>
+        </div>
+    </div>
+</div>

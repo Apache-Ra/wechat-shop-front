@@ -1,0 +1,10 @@
+#customerServiceDetail {
+}
+#customerServiceDetail .customer-service-detail-container{
+	padding: 12px;
+}
+
+#customerServiceDetail .customer-service-detail-container img {
+  width: 100%;
+}
+

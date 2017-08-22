@@ -1,0 +1,79 @@
+<div data-role="page" id="order" class="order" data-dom-cache="false">
+  <div class="list-view wrapper" name="wrapper">
+    <div class="scroller">
+      <ul name="order-container" id="order-container">
+      </ul>
+    </div>
+  </div>
+  <div data-role="footer" class="ui-footer m-panel-footer ui-grid-a m-footer" data-tap-toggle="false" data-position="fixed" data-fullscreen="false">
+    <div class="ui-block-a">
+      <div>
+        <span>共计：</span> <span class="order-price" id="order-total-price">0</span>
+      </div>
+    </div>
+    <div class="ui-block-b">
+      <a href="javascript:void(0)" name="checkOrder" class="buy-now">立即支付</a>
+    </div>
+  </div>
+
+  <!-- 模板 -->
+  <div class="m-template-container">
+    <li name="product-item-template">
+      <div class='terminal-store'>
+        <span class='terminal-store-icon'></span>
+        <span name='terminalStoreName' class='terminal-store-name'></span>
+      </div>
+      <a href="" class="list-item">
+        <div class="list-item-img">
+          <img src="" />
+        </div>
+        <div class="list-item-txt">
+          <h3 class="list-item-txt-title">
+            <span name="productName"></span>
+          </h3>
+          <div class="list-item-txt-level">
+            <div class='list-item-txt-lable' name="productSpec"></div>
+          </div>
+          <div class="list-item-count clearfix">
+            <em class="price" name="salePrice"></em> <span class="product-count">x<span name="productCount">1</span></span>
+          </div>
+        </div>
+      </a>
+    </li>
+
+    <div name="address-template">
+      <div class="ui-form-item ui-form-item-show ui-border-b ui-form-item-link">
+        <div class="map-icon"></div>
+        <div class="address-box">
+          <div class="address-name-phone">
+            <div class="address-name" name="addressName"></div>
+            <div class="address-phone" name="addressPhone"></div>
+          </div>
+          <div class="address-text" name="addressText"></div>
+        </div>
+      </div>
+    </div>
+
+    <div name="order-template">
+      <div class="ui-form ui-border-t address-container"></div>
+      <div class="order-panel-border"></div>
+      <div class="order-product-container"></div>
+      <div class="order-panel-border"></div>
+      <div class="order-invoice-box hide">
+        <div class="invoice-info">
+          <div class="invoice-label">发票信息</div>
+          <div class="invoice-company">单位</div>
+          <div class="invoice-personal">个人</div>
+        </div>
+        <div class="invoice-input-box">
+          <input class="invoice-input" placeholder="请输入发票抬头">
+        </div>
+      </div>
+      <div class="order-panel-border"></div>
+      <div class="order-desc-border">订单备注：
+        <textarea placeholder="请输入您的备注" maxlength="200"></textarea>
+      </div>
+      <div class="order-panel-border"></div>
+    </div>
+  </div>
+</div>

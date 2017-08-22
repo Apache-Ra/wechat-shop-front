@@ -1,0 +1,73 @@
+.address-list-container {
+	
+}
+
+.address-list-container .map-icon {
+	width: 30px;
+	height: 35px;
+	display: inline-block;
+	background: url(../css/images/icon-btn.png) 0 -66px no-repeat;
+	margin: 0 10px 0 0;
+}
+
+.address-list-container .ui-form-item {
+	height: auto !important;
+	font-size: 12px;
+}
+
+.address-list-container .address-name {
+	display: inline-block;
+	margin-right: 50px;
+}
+
+.address-list-container .address-phone {
+	display: inline-block;
+}
+
+.address-list-container .address-box {
+	display: inline-block;
+}
+
+.address-list-container .address-delete-icon {
+	margin: 20px 0 0 0;
+}
+
+.address-list {
+	overflow: hidden;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.address-list .list-view {
+	background-color: white;
+}
+
+.address-list .m-panel-footer {
+	color: #333;
+	background-color: white;
+	border-top: 1px solid #dadada;
+}
+
+.address-list .m-panel-footer .price {
+	font-size: 16px;
+}
+
+.address-list .m-panel-footer .order-count {
+	color: #999;
+	font-size: 12px;
+}
+
+.address-list .m-panel-footer .ui-block {
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.address-list .m-panel-footer .add-address {
+	padding: 9px;
+	display: block;
+	background-color: #c6010b;
+	color: white;
+	background: #c6010b;
+	text-align: center;
+}

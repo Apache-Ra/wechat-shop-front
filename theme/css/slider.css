@@ -1,0 +1,50 @@
+@charset "utf-8";
+.m-slider {
+  list-style: none;
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  margin:3px;
+}
+
+.m-slider::after {
+  display: block;
+  padding-top: 75%;
+  content: '';
+}
+
+.m-slider-content {
+  position:absolute;
+  white-space:nowrap;
+  width: 100%;
+}
+
+.m-slider-content li {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.m-slider-content li img {
+	display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+.m-slider-indicators {
+  position:absolute;
+  bottom: 18px;
+  right: 18px;
+}
+
+.m-slider-indicators span {
+  display: inline-block;
+  background-color: #9D928E;
+  padding: 3px 3px;
+  margin: 0 2px;
+}
+
+.m-slider-indicators span.current {
+  background-color: #c6010b;
+}

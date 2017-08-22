@@ -1,0 +1,9 @@
+#useProcess {
+}
+#useProcess .mbay-detail-container{
+	padding: 12px;
+}
+#useProcess .mbay-detail-container img{
+  width: 100%;
+}
+

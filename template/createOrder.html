@@ -1,0 +1,70 @@
+<div data-role="page" id="createOrder" data-dom-cache="false">
+  <div class="m-user-wrapper">
+    <div class="m-user-box">
+      <div class="m-user clearfix">
+        <div class="m-user-avatar">
+          <img src="./theme/css/images/user_avatar.png">
+        </div>
+        <div class="m-user-info">
+          <i class="user-icon"></i><span class="m-user-name">用户：<i name="customName"></i></span>
+          <i class="car-icon"></i><span class="m-user-phone">商品：<i name="carName"></i></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="list-view">
+    <ul>
+      <li><a href="" class="list-item">
+          <div class="list-item-img">
+            <img name="productImg" />
+          </div>
+          <div class="list-item-txt">
+            <h3 class="list-item-txt-title">
+              <i class="list-item-txt-title-icon"></i> <span name="productName"></span>
+            </h3>
+            <p class="list-item-txt-price">
+              <em class="price" name="salePrice"></em>
+            </p>
+            <div class="list-item-txt-level">
+              <span>用户评价</span> <em name="reviewLevel" class="m-review-level-icon"></em>
+            </div>
+            <p class="list-item-txt-stats">预约次数 : <em name="appointmentCount"></em>次</p>
+          </div>
+      </a></li>
+    </ul>
+  </div>
+  <div class="m-mt-10">
+    <div class="ui-list ui-border-tb m-list">
+      <div class="m-info ui-border-b">
+        <span class="text">服务店</span>
+      </div>
+      <div class="m-cont">
+        <p>
+          <i class="m-cont-icon store"></i><span></span>
+        </p>
+        <p>
+          <i class="m-cont-icon phone"></i><span></span>
+        </p>
+        <p>
+          <i class="m-cont-icon position"></i><span></span>
+        </p>
+        <p class="todo">
+          <i class="m-cont-icon time"></i><span></span>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="m-mt-10 m-confirm">
+    <label class="m-checkbox"> <input type="checkbox" name="sendMessage" checked> 将预约发送短信到手机
+    </label>
+  </div>
+
+
+  <a href=""  data-role="footer" class="ui-footer m-footer m-close-footer" data-tap-toggle="false" data-position="fixed" data-fullscreen="false">
+    <div class="createorder-footer-info">
+      <i class="createorder-footer-icon"></i>
+      <p>确认预约</p>
+    </div>
+  </a>
+</div>

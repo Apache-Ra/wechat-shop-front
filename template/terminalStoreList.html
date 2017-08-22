@@ -1,0 +1,95 @@
+<div data-role="page" id="terminalStoreList" class="terminal-store-list" data-dom-cache="false">
+  <div class="list-view wrapper" name="wrapper">
+    <div class="scroller">
+      <div class="pullDown" name="m_list_refresh">
+        <span></span>
+      </div>
+      
+      <ul name="terminal-store-list-container">
+      </ul>
+      
+      <div class="pullUp" name="m_list_loadmore">
+        <span></span>
+      </div>
+    </div>
+  </div>
+  
+  <!-- 过滤条件 -->
+  <div class="ui-tab">
+    <ul class="m_tab_nav ui-tab-nav">
+      <li class='by_near'>距离优先<span class="ui-tab-nav-icon"></span>
+      </li>
+      <li class='by_score'>满意优先<span class="ui-tab-nav-icon"></span>
+      </li>
+    </ul>
+    <ul class="m_tab_content ui-tab-content">
+      <li class="hide">
+        <ul class="m_filter_series ui-list ui-border-tb">
+          <li class="ui-list-item-link">
+            <div class="ui-list-info ui-border-t">
+              <h4 cid="">更多..</h4>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li class="hide">
+        <div class="cate">
+          <div class="cate-hd">
+            <ul name="category2Container">
+              <li level="category1Id">全部分类</li>
+            </ul>
+          </div>
+          <div class="cate-bd" name="category3Container">
+          </div>
+        </div>
+      </li>
+      <li class="hide">
+        <ul class="ui-list ui-list-text ui-border-tb" name="sortContainer">
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="m-serie-info hide">
+    <img />
+  </div>
+  <!-- 过滤条件 -->
+  
+  <!-- 模板 -->
+  <div class="m-template-container">
+    <ul class="hide" name="category2_item_template">
+      <li level="category2Id">全部</li>
+    </ul>
+    <li class="ui-border-t ui-list-item-link" name="sort_item_template">
+      <p></p>
+    </li>
+    <li class="ui-list-item-link" name="carSeries_item_template">
+      <div class="ui-list-info ui-border-t">
+        <h4>
+          <img class="m-car-logo" /><span></span>
+        </h4>
+      </div>
+    </li>
+    <li name="terminal-store-item-template"><a href="" class="list-item">
+      <div class="list-item-img">
+        <img name='companyPicturer' class='companyPicturer' src="" />
+      </div>
+      <div class="list-item-txt">
+        <h3 class="list-item-txt-title" name="terminalStoreName">
+        </h3>
+        <div name="distance" class='distance'></div>
+        
+        <div class="detail-level">
+          <span>评价</span>
+          <em class="m-store-level-icon" name="levelIcon"></em>
+        </div>
+
+        <div class="list-item-txt-level">
+          <span>电话:</span><span name='phone' class='phone'></span>
+        </div>
+        <div class="list-item-txt-level">
+          <span>地址:</span><span name='address' class='address'></span>
+        </div>
+      </div>
+    </a></li>
+  </div>
+</div>

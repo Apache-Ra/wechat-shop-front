@@ -1,0 +1,12 @@
+#protocal .m-protocol {
+    padding: 15px;
+    text-justify: auto;
+    text-align: justify;
+}
+#protocal .m-protocol h2 {
+    margin-bottom: 10px;
+    color: #FFCC66;
+}
+#protocal .m-protocol p {
+    color: #333;
+}

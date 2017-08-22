@@ -1,0 +1,22 @@
+@charset "utf-8";
+#common_popup_alert {
+  display: none;
+  position: fixed;
+  top: 45%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: transparent;
+  border-color: #fff;
+  text-align: center;
+  z-index: 100;
+}
+
+#common_popup_alert .m-popup-content {
+  padding: 6px 15px;
+  background-color: #111;
+  font-size: 14px;
+  font-weight: normal;
+  color: #fff;
+  text-align: center;
+}

@@ -1,0 +1,78 @@
+@charset "utf-8";
+.ui-header {
+  background-color: #efefef;
+  color: #6f6f6f;
+  font-weight: bold;
+}
+
+.ui-header > div {
+  line-height: 8px;
+}
+
+.ui-header .ui-title {
+  overflow: visible;
+  height: 21px;
+}
+
+.m-header-btn {
+  display: inline-block;
+  padding: 10px 5px;
+  font-size: 12px;
+  color: #c6010b;
+  line-height: 15px;
+  min-width: 30px;
+  font-weight: normal;
+}
+
+.m-header-btn.hide {
+    display: none;
+}
+
+.ui-footer {
+  background-color: #333333;
+  color: #C5C1C3;
+}
+
+.ui-footer > div {
+  padding: 6px;
+}
+
+.m-footer-icon {
+  display: block;
+  width: 35px;
+  height: 35px;
+  margin: 0 auto;
+}
+
+.m-footer-home {
+  background: url(images/kdx/home_unselect_icon.png) no-repeat center;
+  background-size: auto 100%;
+}
+.m-footer-home.active {
+  background: url(images/kdx/home_selected_iocn.png) no-repeat center;
+  background-size: auto 100%;
+}
+.m-footer-carbet {
+  background: url(images/kdx/shopcart_unselect_icon.png) no-repeat center;
+  background-size: auto 100%;
+}
+.m-footer-carbet.active {
+  background: url(images/kdx/shopcart_selected_icon.png) no-repeat center;
+  background-size: auto 100%;
+}
+.m-footer-afterSale {
+  background: url(images/kdx/aftersale_unselect_icon.png) no-repeat center;
+  background-size: auto 100%;
+}
+.m-footer-afterSale.active {
+  background: url(images/kdx/aftersale_selected_icon.png) no-repeat center;
+  background-size: auto 100%;
+}
+.m-footer-mine {
+  background: url(images/kdx/center_unselect_icon.png) no-repeat center;
+  background-size: auto 100%;
+}
+.m-footer-mine.active {
+  background: url(images/kdx/center_selected_icon.png) no-repeat center;
+  background-size: auto 100%;
+}

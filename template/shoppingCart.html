@@ -1,0 +1,53 @@
+<div data-role="page" id="shoppingCart" class="shopping-cart" data-dom-cache="false">
+  <div class="list-view">
+     <ul name="product-list-container">
+     </ul>
+  </div>
+  <div class="empty"></div>
+  <div data-role="footer" class="ui-footer m-panel-footer ui-grid-b m-footer" data-tap-toggle="false" data-position="fixed" data-fullscreen="false">
+    <div class="ui-block-a">
+      <span class="price" id="shoppint-cart-total-price">0.00</span>
+    </div>
+    <div class="ui-block-b">
+      <a href="javascript:void(0)" name="removeShoppingCart" class="remove-shopping-cart">删除</a>
+    </div>
+    <div class="ui-block-c">
+      <a href="javascript:void(0)" name="checkOrder" class="buy-now">结算</a>
+    </div>
+  </div>
+  
+  <!-- 模板 -->
+  <div class="m-template-container">
+    <li name="product-item-template">
+    <div class='terminal-store'>
+      <span class='terminal-store-icon'></span> 
+      <span name='terminalStoreName' class='terminal-store-name'></span>
+      <span class='terminal-store-detail-icon'></span>
+    </div>  
+    <a href="" class="list-item">
+      <div class="list-item-checkbox">
+        <div class="list-item-checkbox-icon" product="" ></div>
+      </div>
+      <div class="list-item-img">
+        <img src="" />
+      </div>
+      <div class="list-item-txt">
+        <h3 class="list-item-txt-title">
+          <span name="productName"></span>
+        </h3>
+        <p class="list-item-txt-price">
+          <em class="price" name="salePrice"></em>
+        </p>
+        <p class="list-item-spec">
+          <span name="productSpec"></span>
+        </p>
+        <div class="list-item-count">
+           <div class="list-item-count-minus">－</div>
+          <input type="text" value="1" class="list-item-count-input">
+          <div class="list-item-count-add">＋</div>
+        </div>
+      </div>
+    </a></li>
+    </ul>
+  </div>
+</div>

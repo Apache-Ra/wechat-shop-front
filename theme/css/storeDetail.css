@@ -1,0 +1,464 @@
+#storeDetail .storeDetail {
+  background: #f8f8f8;
+  padding-bottom: 0;
+}
+
+#storeDetail .ui-slider-indicators {
+  position: relative;
+  text-align: center;
+  margin-top: -21px;
+}
+
+#storeDetail .detail-title {
+  position: relative;
+  color: #333;
+  width: 85%;
+}
+
+#storeDetail .detail-title .detail-title-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(images/ren.png) no-repeat top center;
+  background-size: 100%;
+  position: absolute;
+  top: 2px;
+}
+
+#storeDetail .detail-level {
+  margin-top: 10px;
+}
+
+#storeDetail .detail-title strong {
+  font-weight: normal;
+  position: absolute;
+  right: 0;
+  top: 1px;
+  color: #999;
+  font-size: 12px;
+}
+
+#storeDetail .detail-title span {
+  padding-left: 20px;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 14px;
+}
+
+#storeDetail .m-store-status {
+  padding: 0 15px 10px 15px;
+}
+
+#storeDetail .m-store-status li {
+  width: 20%;
+  float: left;
+  font-size: 12px;
+}
+
+#storeDetail .m-store-status li:last-child {
+  text-align: right;
+}
+
+#storeDetail .m-store-status li em {
+  color: #f3bd3b;
+  padding-left: 3px;
+}
+
+#storeDetail .m-store-status li:last-child em {
+  color: #333;
+}
+
+#storeDetail .m-cont {
+  position: relative;
+  width: 100%;
+}
+
+#storeDetail .m-cont p {
+  margin-right: 20px;
+  font-size: 12px;
+  color: #333;
+  height: 20px;
+}
+
+#storeDetail .m-cont i {
+  display: inline;
+  padding: 1px 8px;
+  background: url(images/icon-btn.png) no-repeat;
+  background-position: 0 -33px;
+  background-size: 16px;
+  margin-left: 2px;
+}
+
+#storeDetail .m-mt-10 {
+  margin-top: 10px;
+}
+
+#storeDetail .ui-border-l {
+    width: 15%;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+#storeDetail .ui-border-l .collect-icon {
+    width: 16px;
+    height: 16px;
+    display: block;
+    background: url(images/icon-rank.png) no-repeat;
+    background-position: 0 0;
+    background-size: 100%;
+    margin: 0 auto;
+}
+
+#storeDetail .ui-border-l .collect-icon.active {
+    background-position: 0 -16px;
+}
+#storeDetail .ui-border-l p {
+    text-align: center;
+    font-size: 10px;
+    color: #495772;
+}
+
+#storeDetail .ui-tab-content {
+  background: #fff;
+}
+
+#storeDetail .list-view li {
+  padding: 12px 6px;
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+  margin-top: -1px;
+  position: relative;
+}
+
+#storeDetail .list-view .list-item {
+  display: -webkit-box;
+  min-height: 102px;
+  overflow: hidden;
+  margin: 0 15px;
+  padding: 12px 0;
+}
+
+#storeDetail .list-view .list-item .list-item-img {
+  display: inline-block;
+  text-align: center;
+  overflow: hidden;
+  margin-right: 10px;
+  border: 1px solid #e8e8e8;
+}
+
+#storeDetail .list-view .list-item .list-item-img img {
+  width: 100px;
+  height: 100px;
+  vertical-align: middle;
+  visibility: visible;
+}
+
+#storeDetail .list-view .list-item .list-item-txt {
+  -webkit-box-flex: 1;
+}
+
+#storeDetail .list-view .list-item .list-item-txt-title {
+  line-height: 20px;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  color: #333;
+  font-size: 12px;
+  height: 38px;
+}
+
+#storeDetail .list-item .list-item-txt-title .list-item-txt-title-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(images/zhuan.png) no-repeat top center;
+  background-size: 100%;
+  position: absolute;
+  top: 3px;
+}
+
+#storeDetail .list-item .list-item-txt-title span {
+  padding-left: 20px;
+}
+
+#storeDetail .list-item .list-item-txt-price em {
+  font-size: 16px;
+}
+
+#storeDetail .list-item .list-item-txt-level {
+  color: #999;
+  font-size: 10px;
+  position: relative;
+}
+
+#storeDetail .list-item .list-item-txt-level span {
+  position: relative;
+  margin-right: 4px;
+}
+
+#storeDetail .list-item .list-item-txt-stats {
+  color: #999;
+  font-size: 10px;
+}
+
+#storeDetail .list-item .list-item-txt-stats em {
+  color: #f6ce72;
+}
+
+#storeDetail .m-list {
+  padding: 0 15px;
+}
+
+#storeDetail .m-info {
+  padding: 12px 0;
+  position: relative;
+}
+
+#storeDetail .m-info .text {
+  font-size: 12px;
+  color: #666;
+}
+
+#storeDetail .m-info .m_evaluate {
+  font-size: 12px;
+}
+
+#storeDetail .m-info .m_evaluate a {
+  color: #c6010b;
+}
+
+#storeDetail .m-info .score {
+  float: right;
+  font-weight: normal;
+}
+
+#storeDetail .m-info .score i {
+  font-style: italic;
+  font-size: 16px;
+  color: #f3bd3b;
+}
+
+#storeDetail .m-info .score i em {
+  font-style: italic;
+  font-size: 12px;
+  color: #f3bd3b;
+}
+
+#storeDetail .m-user {
+  font-size: 10px;
+  color: #495772;
+}
+
+#storeDetail .m-user .review-date {
+  padding-left: 15px;
+  color: #999;
+}
+
+#storeDetail .m_evaluate {
+	float: right;
+}
+
+#storeDetail .m-user .m-user-img {
+  display: inline-block;
+  padding: 6px;
+  line-height: 1;
+  border-radius: 12px;
+  background: #eee;
+  margin-right: 3px;
+  vertical-align: -1px;
+}
+
+#storeDetail .m-comment {
+  line-height: 20px;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  color: #333;
+  font-size: 12px;
+  height: 38px;
+  text-indent: 2em;
+}
+
+#storeDetail .m-link {
+  text-align: center;
+  font-size: 10px;
+  height: 36px;
+  line-height: 36px;
+  display: block;
+  position: relative;
+  padding: 0 15px;
+  color: #c6010b;
+}
+
+#storeDetail .m-detail-txt {
+  padding-left: 70px;
+}
+
+#storeDetail .m-detail-txt .m-detail-img {
+  margin-left: -70px;
+  float: left;
+  width: 60px;
+  height: 45px;
+  background: #eee;
+}
+
+#storeDetail .m-detail-txt .m-detail-txt-title {
+  font-size: 12px;
+  color: #333;
+}
+
+#storeDetail .m-detail-txt .m-detail-txt-title em {
+  float: right;
+  color: #999;
+  font-size: 10px;
+}
+
+#storeDetail .m-detail-txt .m-detail-txt-cont {
+  font-size: 12px;
+  color: #999;
+}
+
+#storeDetail .empty-review-prompt {
+  text-align: center;
+  font-size: 13px;
+  background-color: #E4E4E4;
+  padding: 6px 0;
+}
+
+#storeDetail .m-btns {
+  padding: 15px 10px;
+}
+
+#storeDetail .m-btns .m-btn {
+  display: block;
+  width: 48%;
+  height: 32px;
+  float: left;
+  text-align: center;
+  line-height: 32px;
+  font-size: 10px;
+  color: #495772;
+}
+
+#storeDetail .m-btns .m-btn .m-btn-cont {
+  width: 70px;
+  margin: 0 auto;
+}
+
+#storeDetail .m-btns .m-btn .m-btn-cont .btn-icon {
+  display: block;
+  float: left;
+  width: 16px;
+  height: 16px;
+  background: url(images/icon-btn.png) no-repeat;
+  background-size: 100%;
+  margin-top: 8px;
+}
+
+#storeDetail .m-btns .m-btn .m-btn-cont .store {
+  background-position: 0 0;
+}
+
+#storeDetail .m-btns .m-btn .m-btn-cont .phone {
+  background-position: 0 -16px;
+}
+
+#storeDetail .m-btns .m-btn .m-btn-cont span {
+  float: right;
+}
+
+#storeDetail .m-btns .m-btn:last-child {
+  float: right;
+}
+
+#storeDetail .m-link2 {
+  display: block;
+  width: 100%;
+  line-height: 20px;
+  font-size: 10px;
+  color: #495772;
+  text-align: left;
+  padding: 8px 0;
+}
+
+#storeDetail .m-link2:before {
+  background: url(lib/images/icon.png) no-repeat 0 -75px;
+  -webkit-background-size: 150px auto;
+  content: "";
+  display: block;
+  width: 9px;
+  height: 15px;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  margin-top: -7px;
+}
+
+#storeDetail .m-tab .ui-tab-nav {
+  position: static;
+  font-size: 14px;
+}
+
+#storeDetail .m-tab .ui-tab-content {
+  margin: 0;
+  display: block;
+}
+
+#storeDetail .m-tab .nodata {
+  text-align: center;
+  padding: 15px;
+}
+
+#storeDetail .m-tab .ui-tab-content li {
+  font-size: 12px;
+  color: #333;
+}
+
+#storeDetail .m-tab .ui-tab-content .m-label {
+  width: 50%;
+  color: #999;
+  display: block;
+}
+
+#storeDetail .ui-tab-content .list-view {
+  display: none;
+}
+
+#storeDetail .ui-tab-content .list-view.current {
+  display: block;
+}
+#storeDetail .m_tab ui-tab-nav ui-border-b li {
+	width:33%;
+}
+
+
+#storeDetail .m-panel-footer {
+  color: #333;
+  background-color: white;
+}
+
+#storeDetail .m-panel-footer a {
+  padding: 9px;
+  display: block;
+  background-color: #c6010b;
+  color: white;
+  text-align: center;
+}
+
+#storeDetail .m-panel-footer > div {
+  padding: 0;
+}
+
+.storeMap #mapPanel{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin:0;
+}

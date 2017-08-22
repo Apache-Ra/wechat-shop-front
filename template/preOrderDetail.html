@@ -1,0 +1,64 @@
+<div data-role="page" id="order_detail" class="order_detail" data-dom-cache="false">
+	<div class="list-view wrapper" name="wrapper">
+		<div class="scroller">
+			<ul name="order_detail-container" id="order_detail-container">
+				<li><div>
+						订单号：<span name="appointmentCode"></span>
+					</div></li>
+				<li name='invoice' class='invoice hide'>
+					<div>
+						<span>发票类型：</span><span name='invoiceType'></span>
+					</div>
+					<div name='invoiceItem'>
+						<span>公司名称：</span><span name='invoiceTitle'></span>
+					</div>
+				</li>
+				<li class='note'><span>订单信息：</span> <span name='noteContainer'></span> <span name='noteText'><textarea name='noteTextArea' placeholder="请追加您的备注" maxlength="200"></textarea></span></li>
+
+				<li class="ui-form-item ui-form-item-show ui-border-b ">
+					<div class="map-icon"></div>
+					<div class="address-box">
+						<div class="address-name-phone">
+							<div class="address-name" name="addressName"></div>
+							<div class="address-phone" name="addressPhone"></div>
+						</div>
+						<div class="address-text" name="addressText"></div>
+					</div>
+				</li>
+				<li>
+					<div class='terminal-store'>
+						<span class='terminal-store-icon'></span> <span name='terminalStoreName' class='terminal-store-name'></span>
+					</div>
+
+					<div name="product-item-container"></div>
+				</li>
+				<li name='saleAmountContainer' class='saleAmount'><span>订单总额：</span> <span name='saleAmount' class='price'></span> <i name="appointmentStatus"></i></li>
+			</ul>
+		</div>
+	</div>
+	<div data-role="footer" name="footer" class="ui-footer m-panel-footer m-footer" data-position="fixed" data-tap-toggle="false" data-fullscreen="false">
+		<div>
+			<a href="javascript:void(0)" name="footerFunc" class="buy-now"></a>
+		</div>
+	</div>
+
+	<!-- 模板 -->
+	<div class="m-template-container">
+		<a href="" class="list-item" name="product-item-template">
+			<div class="list-item-img">
+				<img name="image" src="" />
+			</div>
+			<div class="list-item-txt">
+				<h3 class="list-item-txt-title">
+					<span name="productName"></span>
+				</h3>
+				<div class="list-item-txt-level">
+					<div class='list-item-txt-lable' name="productSpec"></div>
+				</div>
+				<div class="list-item-count clearfix">
+					<em class="price" name="salePrice"></em> <span class="product-count">x<span name="productCount">1</span></span>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>

@@ -1,0 +1,48 @@
+<div data-role="page" id="storeProductList" class="store-product-list" data-dom-cache="false">
+  <div class="list-view wrapper" name="wrapper">
+    <div class="scroller">
+      <div class="pullDown" name="m_list_refresh">
+        <span></span>
+      </div>
+      
+      <ul name="product-list-container">
+      </ul>
+      
+      <div class="pullUp" name="m_list_loadmore">
+        <span></span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="m-template-container">
+    <li name="product-item-template"><a href="" class="list-item">
+        <div class="list-item-img">
+          <img src="" />
+        </div>
+        <div class="list-item-txt">
+          <h3 class="list-item-txt-title">
+            <i class="list-item-txt-title-icon" name="isForAll"></i> <span name="productName"></span>
+          </h3>
+          <p class="list-item-txt-price">
+            <em class="price" name="salePrice"></em>
+          </p>
+          <div class="list-item-txt-level">
+            <span>用户评价</span> <em name='reviewScore' class="m-review-level-icon"></em>
+          </div>
+          <p class="list-item-txt-stats">预约次数 : <em name="appointmentCount"></em>次</p>
+        </div>
+    </a></li>
+
+    <div name="searchHeader-template-container" class="storeProductHeader">
+      <div>
+        <li name='productOrservice'>
+          <span name='productServiceName'>特色商品</span>
+          <span class="triangle-down"></span>
+        </li>
+        <li name='storeProductDropdown' class="storeProductDropdown">
+          <div type='NORMAL'>特色商品</div>
+          <div type='SERVICE'>特色服务</div></li>
+      </div>
+    </div>
+  </div>
+</div>

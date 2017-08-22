@@ -1,0 +1,26 @@
+<div data-role="page" id="addressList" class="address-list" data-dom-cache="false">
+  <ul name="address-list-container" class="address-list-container">
+  </ul>    
+  <div data-role="footer" class="ui-footer m-panel-footer ui-grid-b m-footer" data-tap-toggle="false" data-position="fixed" data-fullscreen="false">
+      <a href="javascript:void(0)" name="addAddress" class="add-address">添加收货地址</a>
+  </div>
+  
+  <!-- 模板 -->
+  <div class="m-template-container">
+    <div name="address-list-template" id="">
+      <div class="ui-form ui-border-t address-container">
+          <div class="ui-form-item ui-form-item-show ui-border-b">
+              <div class="map-icon"></div>
+              <div class="address-box">
+                <div class="address-name-phone">
+                  <div class="address-name" name="addressName"></div>
+                  <div class="address-phone" name="addressPhone"></div>
+                </div>
+                <div class="address-text" name="addressText"></div>
+                <a href="javascript:void(0)" addressId="" class="ui-icon-close address-delete-icon"></a>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,247 @@
+#createOrder .m-mt-10 {
+    margin-top: 10px;
+}
+#createOrder .m-user-wrapper {
+    width: 100%;
+    height: 75px;
+    overflow: hidden;
+    background: url(images/user_bg.png) no-repeat;
+}
+#createOrder .m-user-wrapper .m-user {
+    margin-top: 20px;
+    padding: 0 30px;
+    overflow: hidden;
+}
+#createOrder .m-user-wrapper .m-user .m-user-avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 200px;
+    overflow: hidden;
+    float: left;
+}
+#createOrder .m-user-wrapper .m-user .m-user-avatar img {
+    width: 35px;
+    height: 35px;
+}
+#createOrder .m-user-wrapper .m-user .m-user-info {
+    color: #fff;
+    margin-left: 55px;
+    font-size: 12px;
+}
+#createOrder .m-user-wrapper .m-user .m-user-info .user-icon {
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: url(images/icon-bespoke-user.png) 0 0 no-repeat;
+    background-size: 100%;
+    float: left;
+    margin-right: 3px;
+    margin-top: 5px;
+}
+#createOrder .m-user-wrapper .m-user .m-user-info .car-icon {
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: url(images/icon-bespoke-user.png) 0 -8px no-repeat;
+    background-size: 100%;
+    float: left;
+    margin-right: 3px;
+    margin-top: 5px;
+}
+#createOrder .m-user-wrapper .m-user .m-user-info span {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#createOrder .list-view li {
+    min-height: 80px;
+    padding: 12px 6px;
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    margin-top: -1px;
+    position: relative;
+}
+#createOrder .list-view .list-item {
+    display: -webkit-box;
+    height: 102px;
+    overflow: hidden;
+}
+#createOrder .list-view .list-item .list-item-img {
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-left: 8px;
+    border: 1px solid #e8e8e8;
+}
+#createOrder .list-view .list-item .list-item-img img {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    visibility: visible;
+}
+#createOrder .list-view .list-item .list-item-txt {
+    margin: 4px 15px 6px 0;
+    -webkit-box-flex: 1;
+}
+#createOrder .list-view .list-item .list-item-txt-title {
+    line-height: 20px;
+    position: relative;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    color: #333;
+    font-size: 12px;
+    height: 38px;
+}
+#createOrder .list-item .list-item-txt-title .list-item-txt-title-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(images/zhuan.png) no-repeat top center;
+    background-size: 100%;
+    vertical-align: middle;
+}
+#createOrder .list-item .list-item-txt-price em {
+    font-size: 16px;
+}
+#createOrder .list-item .list-item-txt-level {
+    color: #999;
+    font-size: 10px;
+    position: relative;
+}
+#createOrder .list-item .list-item-txt-level span {
+    position: relative;
+    margin-right: 4px;
+}
+#createOrder .list-item .list-item-txt-stats {
+    color: #999;
+    font-size: 10px;
+}
+#createOrder .list-item .list-item-txt-stats em {
+    color: #f6ce72;
+}
+#createOrder .m-list {
+    padding: 0 15px;
+}
+#createOrder .m-info {
+    padding: 12px 0;
+    position: relative;
+}
+#createOrder .m-info .text {
+    font-size: 12px;
+    color: #666;
+}
+#createOrder .m-cont {
+    padding: 15px 0;
+    position: relative;
+}
+#createOrder .m-cont:after {
+    background: url(lib/images/icon.png) no-repeat 0 -75px;
+    -webkit-background-size: 150px auto;
+    content: "";
+    display: block;
+    width: 9px;
+    height: 15px;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    margin-top: -7px;
+}
+#createOrder .m-cont p {
+    font-size: 12px;
+    color: #333;
+}
+#createOrder .m-cont p:after {
+  content: " ";
+  display: block;
+  clear: left;
+}
+#createOrder .m-cont p .m-cont-icon {
+    display: block;
+    float: left;
+    width: 12px;
+    height: 12px;
+    background: url(images/icon-bespoke-cont.png) no-repeat;
+    background-size: 100%;
+    margin-right: 3px;
+    margin-top: 3px;
+}
+#createOrder .m-cont p .store {
+    background-position: 0 0;
+    background-size: 100%;
+}
+#createOrder .m-cont p .phone {
+    background-position: 0 -12px;
+    background-size: 100%;
+}
+#createOrder .m-cont p .position {
+    background-position: 0 -24px;
+    background-size: 100%;
+}
+#createOrder .m-cont p .time {
+    background-position: 0 -36px;
+    background-size: 100%;
+}
+#createOrder .m-confirm {
+    padding: 0 15px;
+}
+#createOrder .m-confirm label {
+    color: #495772;
+    font-size: 10px;
+}
+#createOrder .m-checkbox input {
+    display: inline-block;
+    width: 14px;
+    height: 1px;
+    position: relative;
+    overflow: visible;
+    border: 0;
+    background: 0 0;
+    -webkit-appearance: none;
+    outline: 0;
+    vertical-align: middle;
+}
+#createOrder .m-checkbox input:before {
+    background: url(images/icon-checkbox.png) no-repeat;
+    background-size: 100%;
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    top: -7px;
+}
+#createOrder .m-checkbox input:checked:before {
+    background-position: 0 -14px;
+}
+#createOrder .m-footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    background: #23122f;
+    width: 100%;
+    text-align: center;
+}
+#createOrder .m-footer .createorder-footer-info {
+    display: inline-block;
+    line-height: 50px;
+}
+#createOrder .m-footer .createorder-footer-info .createorder-footer-icon {
+    display: block;
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin-top: 13px;
+    margin-right: 10px;
+    background: url(images/icon-footer.png) 0 -72px no-repeat;
+    background-size: 100%;
+}
+#createOrder .m-footer .createorder-footer-info p {
+    float: left;
+    font-size: 18px;
+    color: #fff;
+}

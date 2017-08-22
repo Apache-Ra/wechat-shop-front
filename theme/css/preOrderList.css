@@ -1,0 +1,416 @@
+#preOrderList {
+	overflow: hidden;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+#preOrderList .mine {
+	font-size: 20px;
+	color: white;
+	width: 100%;
+	height: 110px;
+	text-align: center;
+	line-height: 110px;
+	background: url(images/kdx/pay_success_icon.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+#preOrderList .wrapper {
+	height: 100%;
+	position: relative;
+}
+
+#preOrderList .ui-tab {
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+}
+
+#preOrderList .ui-tab-nav {
+	background: #f3f5f7;
+	border-bottom: 1px solid #dadada;
+}
+
+#preOrderList .ui-tab-nav li {
+	font-size: 14px;
+	position: relative;
+}
+
+#preOrderList .ui-tab-nav li.current {
+	border-bottom: 2px #492678 solid;
+	color: #492678;
+}
+
+#preOrderList .ui-tab-nav li .ui-tab-nav-icon {
+	display: inline-block;
+	position: absolute;
+	top: 20px;
+	width: 8px;
+	height: 5px;
+	background: url(images/toggle.png) no-repeat 0 -5px;
+	background-size: 100%;
+	margin-left: 5px;
+}
+
+#preOrderList .ui-tab-nav li.current .ui-tab-nav-icon {
+	background: url(images/toggle.png) no-repeat 0 0;
+	background-size: 100%;
+}
+
+#preOrderList.ui-tab {
+	width: 100%;
+	overflow: hidden;
+}
+
+#preOrderList .ui-tab-content {
+	display: -webkit-box;
+	width: 300%;
+}
+
+#preOrderList .ui-tab-content>li {
+	-webkit-box-flex: 1;
+	width: 100%;
+}
+
+#preOrderList .ui-tab-content .ui-border-tb {
+	border-top: 0;
+}
+
+#preOrderList .ui-tab-content .ui-list-info h4, #preOrderList .ui-tab-content .ui-border-t p
+	{
+	font-size: 12px;
+}
+
+#preOrderList .ui-tab-content>li .cate {
+	width: 100%;
+	display: -webkit-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#preOrderList .ui-tab-content>li .cate .cate-hd, #preOrderList .ui-tab-content>li .cate .cate-bd
+	{
+	width: 50%;
+	box-flex: 1;
+	-webkit-box-flex: 1;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#preOrderList .cate-hd li {
+	line-height: 20px;
+	padding: 12px 15px;
+	font-size: 12px;
+	background: #f3f6f8;
+	border-bottom: 1px solid #e8e8e8;
+	color: #495772;
+}
+
+#preOrderList .cate-hd li.current {
+	background: #fff;
+}
+
+#preOrderList .cate-bd li {
+	line-height: 20px;
+	padding: 12px 15px;
+	border-bottom: 1px solid #fff;
+	font-size: 12px;
+	color: #495772;
+}
+/* #preOrderList .list-view {
+	margin-top: 45px;
+}
+ */
+#preOrderList .list-view li {
+	min-height: 80px;
+	padding: 5px 12px 0 12px;
+	border-bottom: 1px solid #dadada;
+	position: relative;
+	background: white;
+}
+
+#preOrderList .list-view .list-item {
+	display: -webkit-box;
+	height: 102px;
+	overflow: hidden;
+}
+/*oderNumber - orderType*/
+#preOrderList .orderNumber-orderType{border-top: 1px solid #dadada;border-bottom: 1px solid #dadada;height:30px;line-height:30px;margin: 0 -12px;padding: 0 20px;}
+#preOrderList .orderNumber-orderType .statusName{float:right}
+#preOrderList .list-view .list-item{}
+
+#preOrderList .list-view .itemHeader {
+	line-height: 16px;
+	color: #3c3c3c;
+	font-size: 12px;
+	padding: 0px 0px 2px 0px;
+	margin: 3px 0px 8px 0px;
+	font-weight: lighter;
+	width: 100%;
+	height: 16px;
+	position:relative;
+}
+
+#preOrderList .list-view .itemHeader>span {
+	color: #3c3c3c;
+}
+
+#preOrderList .list-view .moveToNext {
+	content: "";
+	position: absolute;
+	display: block;
+	right: 10px;
+	width: 10px;
+	height: 16px;
+	background: url(lib/images/icon.png) no-repeat;
+	background-size: 150px 100px;
+	background-position: 0px -74px;
+}
+
+#preOrderList .list-view .terminalStoreIcon {
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url(images/icon-btn.png) 0 0 no-repeat;
+	background-size: 100%;
+	background-position: 0px 0px;
+	margin: -1px 5px 0px 0px;
+	float: left;
+}
+
+#preOrderList .list-view .termianlStoreName {
+	line-height: 16px;
+	color: #333;
+	font-size: 12px;
+	font-weight: lighter;
+}
+
+#preOrderList .order-item-template .list-item-img {
+	display: inline-block;
+	text-align: center;
+	overflow: hidden;
+	height: 102px;
+	width: 133px;
+	line-height: 102px;
+	margin-right: 10px;
+	padding: 5px 0;
+	box-sizing: border-box;
+}
+
+#preOrderList .order-item-template img {
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+}
+
+#preOrderList .order-item-template div {
+	color: #333;
+	font-size: 12px;
+}
+
+#preOrderList .order-item-template-multi img {
+  width: 133px;
+  max-height: 100%;
+  display: inline-block;
+  line-height: 100px;
+  vertical-align: middle;
+  margin-right: 2px;
+}
+
+#preOrderList .order-item-template-multi div {
+  color: #333;
+  font-size: 12px;
+}
+
+#preOrderList .order-item-template-multi .preOrderItems {
+  width: 100%;
+  height: 100px;
+  display: block;
+  margin-right: 2px;
+}
+
+#preOrderList .list-view .list-item .list-item-txt {
+	margin: 4px 0px 6px 0;
+	-webkit-box-flex: 1;
+}
+
+#preOrderList .list-view .list-item .list-item-txt-title {
+	line-height: 17px;
+	position: relative;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	word-break: break-all;
+	color: #333;
+	font-size: 12px;
+	height: 35px;margin-top: 15px;
+}
+
+#preOrderList .list-item .list-item-txt-title .list-item-txt-title-icon
+	{
+	display: inline-block;
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+	background: url(images/zhuan.png) no-repeat top center;
+	background-size: 100%;
+}
+
+#preOrderList .list-item .list-item-txt-price em {
+	font-size: 16px;
+	color: #c6010b;
+}
+
+#preOrderList .list-item .list-item-txt-level {
+	color: #999;
+	font-size: 10px;
+	position: relative;
+}
+
+#preOrderList .list-item .list-item-txt-level span {
+	position: relative;
+	margin-right: 4px;
+}
+
+#preOrderList .list-item .list-item-txt-level .icon－1 {
+	display: inline-block;
+	width: 70px;
+	height: 12px;
+	background: url(images/icon-level.png) no-repeat 0 -48px;
+	background-size: 100%;
+	position: absolute;
+	top: 3px;
+	/*五星：0 0
+          四星：0 -12
+          三星：0 -24
+          二星：0 -36
+          一星：0 -48
+        */
+}
+
+#preOrderList .list-item .list-item-txt-level .icon－2 {
+	display: inline-block;
+	width: 70px;
+	height: 12px;
+	background: url(images/icon-level.png) no-repeat 0 -36px;
+	background-size: 100%;
+	position: absolute;
+	top: 3px;
+	/*五星：0 0
+          四星：0 -12
+          三星：0 -24
+          二星：0 -36
+          一星：0 -48
+        */
+}
+
+#preOrderList .list-item .list-item-txt-level .icon－3 {
+	display: inline-block;
+	width: 70px;
+	height: 12px;
+	background: url(images/icon-level.png) no-repeat 0 -24px;
+	background-size: 100%;
+	position: absolute;
+	top: 3px;
+	/*五星：0 0
+          四星：0 -12
+          三星：0 -24
+          二星：0 -36
+          一星：0 -48
+        */
+}
+
+#preOrderList .list-item .list-item-txt-level .icon－4 {
+	display: inline-block;
+	width: 70px;
+	height: 12px;
+	background: url(images/icon-level.png) no-repeat 0 -12px;
+	background-size: 100%;
+	position: absolute;
+	top: 3px;
+	/*五星：0 0
+          四星：0 -12
+          三星：0 -24
+          二星：0 -36
+          一星：0 -48
+        */
+}
+
+#preOrderList .list-item .list-item-txt-level .icon－5 {
+	display: inline-block;
+	width: 70px;
+	height: 12px;
+	background: url(images/icon-level.png) no-repeat 0 0px;
+	background-size: 100%;
+	position: absolute;
+	top: 3px;
+	/*五星：0 0
+          四星：0 -12
+          三星：0 -24
+          二星：0 -36
+          一星：0 -48
+        */
+}
+
+#preOrderList .list-item .list-item-txt-stats {
+	color: #999;
+	font-size: 10px;
+}
+
+#preOrderList .list-item .list-item-txt-stats em {
+	color: #f6ce72;
+}
+
+#preOrderList .pullDown, #preOrderList .pullUp {
+	display: none;
+}
+
+#preOrderList .pullDown.flip, #preOrderList .pullUp.flip {
+	display: block;
+	height: 34px;
+	line-height: 34px;
+	padding-left: 15px;
+	text-align: center;
+}
+
+#preOrderList .pullUp.flip {
+	margin-bottom: -34px;
+}
+
+#preOrderList .pullDown.flip {
+	margin-top: -34px;
+}
+
+#preOrderList .scroller {
+	min-height: 105%;
+}
+
+#preOrderList .list-item-txt .quantity {
+	float: right;
+	font-size: 16px;
+}
+
+#preOrderList .list-item-txt>div>span {
+	padding-right: 10px;
+}
+
+#preOrderList .statusName {
+  margin-left: 10px;
+  color: #c6010b;
+}
+
+#preOrderList .empty {
+	display: none;
+}
+
+#preOrderList.empty .empty {
+	display: block;
+	position: fixed;
+	top: 40px;
+	width: 100%;
+	height: 70%;
+	z-index: 999;
+	background: url(images/empty_order_3x.png) no-repeat center;
+	background-size: 70px;
+}

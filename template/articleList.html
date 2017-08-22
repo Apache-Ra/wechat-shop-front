@@ -1,0 +1,54 @@
+<div data-role="page" id="articleList" class="article-list" data-dom-cache="false">
+  <div class="list-view wrapper" name="wrapper">
+    <div class="scroller">
+      <div class="pullDown" name="m_list_refresh">
+        <span></span>
+      </div>
+      
+      <ul name="article-list-container">
+      </ul>
+      
+      <div class="pullUp" name="m_list_loadmore">
+        <span></span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="m-serie-info hide">
+    <img />
+  </div>
+  <!-- 过滤条件 -->
+  
+  <!-- 模板 -->
+  <div class="m-template-container">
+    <ul class="hide" name="category2_item_template">
+      <li level="category2Id">全部</li>
+    </ul>
+    <li class="ui-border-t ui-list-item-link" name="sort_item_template">
+      <p></p>
+    </li>
+    <li class="ui-list-item-link" name="carSeries_item_template">
+      <div class="ui-list-info ui-border-t">
+        <h4>
+          <img class="m-car-logo" /><span></span>
+        </h4>
+      </div>
+    </li>
+    <li name="article-item-template"><a href="" class="list-item">
+      <div class="list-item-img">
+        <img src="" />
+      </div>
+      <div class="list-item-txt">
+        <h3 class="list-item-txt-title">
+          <span name="articleName"></span>
+        </h3>
+        <div class="list-item-txt-subtitle">
+          <div name='createTime' class='createTime'></div>
+        </div>
+        <h3 class="list-item-txt-content">
+          <span name="articleContent"></span>
+        </h3>
+      </div>
+    </a></li>
+  </div>
+</div>

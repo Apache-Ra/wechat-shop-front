@@ -1,0 +1,58 @@
+<div data-role="page" id="addressEdit" class="addressEdit" data-dom-cache="false">
+  <div class="list-view wrapper" name="wrapper">
+    <div class="scroller">
+      <ul name="address-container" class="address-container">
+        <div class="ui-form ui-border-t">
+            <div class="ui-form-item ui-form-item-l ui-border-b">
+                <label class="ui-border-r">
+                    收货人
+                </label>
+                <input type="text" id="txt_recievename" maxlength="20" placeholder="请填写收货人真实姓名">
+            </div>
+            <div class="ui-form-item ui-form-item-l ui-border-b">
+                <label class="ui-border-r">
+                    联系电话
+                </label>
+                <input type="text" id="txt_cellphone" maxlength="11" placeholder="请输入手机号码">
+            </div>
+            <div class="ui-form-item ui-form-item-l ui-border-b">
+                <label class="ui-border-r">
+                    省
+                </label>
+                <div class="frozen-select">
+                    <select id="province-select">
+                    </select>
+                </div>
+            </div>
+            <div class="ui-form-item ui-form-item-l ui-border-b">
+                <label class="ui-border-r">
+                    市
+                </label>
+                <div class="frozen-select">
+                    <select id="city-select">
+                    </select>
+                </div>
+            </div>
+            <div class="ui-form-item ui-form-item-l ui-border-b">
+                <label class="ui-border-r">
+                    区
+                </label>
+                <div class="frozen-select">
+                    <select id="area-select">
+                    </select>
+                </div>
+            </div>
+            <div class="ui-form-item ui-form-item-l ui-border-b">
+                <label class="ui-border-r">
+                    详细地址
+                </label>
+                <input type="text" id="txt_detailaddress" placeholder="街道等详细地址"></input>
+            </div>
+        </div>
+        <div class="ui-btn-wrap">
+            <button class="ui-btn-lg" id="save-address">保存</button>
+        </div>
+      </ul>    
+    </div>
+  </div>
+</div>
